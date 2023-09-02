@@ -20,5 +20,13 @@ public class Review {
     private ObjectId id;
     private String body;
     private String user;
+    private String imdbId;
+    private Date updatedDate;
 
+    public Review(String body, String user, String imdbId, Date updatedDate) {
+        this.body = body;
+        this.user = user;
+        this.imdbId = imdbId;
+        this.updatedDate = updatedDate;
+    }
 }
