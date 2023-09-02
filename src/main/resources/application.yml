@@ -3,3 +3,9 @@ spring:
     mongodb:
       database: ${env.MONGO_DATABASE}
       uri: mongodb+srv://${env.MONGO_USER}:${env.MONGO_PWD}@${env.MONGO_CLUSTER}
+    jpa:
+      show-sql: true
+      properties:
+        hibernate:
+          format_sql:true
+
