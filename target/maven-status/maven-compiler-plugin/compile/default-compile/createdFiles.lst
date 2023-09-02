@@ -1,0 +1,11 @@
+com\shashannkd\movieshub\entity\Review.class
+com\shashannkd\movieshub\entity\Movie.class
+com\shashannkd\movieshub\repository\MovieRepository.class
+com\shashannkd\movieshub\repository\ReviewRepository.class
+com\shashannkd\movieshub\service\impl\ReviewServiceImpl.class
+com\shashannkd\movieshub\MovieshubApplication.class
+com\shashannkd\movieshub\service\ReviewService.class
+com\shashannkd\movieshub\contoller\MoviesController.class
+com\shashannkd\movieshub\service\impl\MovieServiceImpl.class
+com\shashannkd\movieshub\contoller\ReviewController.class
+com\shashannkd\movieshub\service\MovieService.class
