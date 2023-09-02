@@ -9,4 +9,5 @@ import java.util.List;
 
 @Repository
 public interface MovieRepository extends MongoRepository<Movie, ObjectId> {
+    Movie findByImdbId(String imdbId);
 }
